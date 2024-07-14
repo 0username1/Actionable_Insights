@@ -11,8 +11,8 @@ In its most basic form, actionable insights are meaningful findings that result 
 <li>To perform topic modeling on negative reviews to identify recurring themes and issues</li>
 </ul>
 
-### Methodology
-## Sentiment Analysis by Naive Bayes followed by LDA for Topic Modeling
+## Methodology
+### Approach - 1 :  Sentiment Analysis by Naive Bayes followed by LDA for Topic Modeling
 
 <img width="314" alt="bayesianClassifier" src="https://github.com/user-attachments/assets/e0142ae9-7b2f-4a3e-a86c-9d55d42d3a40">
 </br>
@@ -32,7 +32,7 @@ In its most basic form, actionable insights are meaningful findings that result 
 #### Coherence Score of LDA model : 0.68 
 <img width="311" alt="ldascore" src="https://github.com/user-attachments/assets/8b1e7e04-361a-4253-a8a3-31f5150ff146">
 
-## Sentiment Analysis by Bidirectional LSTM followed by LSA for Topic Modeling
+### Approach - 2 : Sentiment Analysis by Bidirectional LSTM followed by LSA for Topic Modeling
 
 #### Bidirectional LSTM - 85.89 %
 ![bidirectionalLSTM_accuracy](https://github.com/user-attachments/assets/548099d5-2168-4075-8c4a-885a4f9601fe)
