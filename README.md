@@ -6,7 +6,7 @@ In its most basic form, actionable insights are meaningful findings that result 
 
 ### Objective
 <ul>
-<li>To preprocess IMDB movie reviews for effective sentiment analysis</li>
+<li>To preprocess <a href="https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews/data">IMDB movie reviews</a> for effective sentiment analysis</li>
 <li>To classify the reviews into positive and negative sentiments by Sentiment Analysis</li>
 <li>To perform topic modeling on negative reviews to identify recurring themes and issues</li>
 </ul>
