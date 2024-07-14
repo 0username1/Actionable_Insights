@@ -14,6 +14,7 @@ In its most basic form, actionable insights are meaningful findings that result 
 ### Methodology
 ## Sentiment Analysis by Naive Bayes followed by LDA for Topic Modeling
 <img width="314" alt="bayesianClassifier" src="https://github.com/user-attachments/assets/e0142ae9-7b2f-4a3e-a86c-9d55d42d3a40">
+![lda_coherence_score](https://github.com/user-attachments/assets/24744687-810b-4116-bcc0-d6f132cad57c)
 
 ## Sentiment Analysis by Bidirectional LSTM followed by LSA for Topic Modeling
 ![bidirectionalLSTM_accuracy](https://github.com/user-attachments/assets/548099d5-2168-4075-8c4a-885a4f9601fe)
