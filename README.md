@@ -14,8 +14,15 @@ In its most basic form, actionable insights are meaningful findings that result 
 ## Methodology
 ### Approach - 1 :  Sentiment Analysis by Naive Bayes followed by LDA for Topic Modeling
 
+Naive Bayes is a probabilistic classifier based on Bayes'theorem, which assumes independence between predictors. Bayes Theorem is a mathematical formula used to determine the conditional probability of events. With the help of Bayes Theorem We can predict whether a movie review is positive or negative by choosing the class with the highest probability. Each feature in the text is considered independent of others.Features are words in the review. A word not seen in training data might make P(word/class) = 0. To handle this use Laplace smoothing to ensure no probability is zero.
+</br>
+
+P(word/class) = (count of word in class + 1) / (total words in
+class + V), V is the unique word in the corpus.
 <img width="314" alt="bayesianClassifier" src="https://github.com/user-attachments/assets/e0142ae9-7b2f-4a3e-a86c-9d55d42d3a40">
 </br>
+
+I have used three variants of Naive Bayes:
 
 #### ComplementNB model -  81.82 %
 <img width="316" alt="complementNB" src="https://github.com/user-attachments/assets/5b2f6dd8-a89e-4fd8-8084-a6d3ab72f31f">
